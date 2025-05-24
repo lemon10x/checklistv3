@@ -1,0 +1,24 @@
+name: mi_checklist
+description: Aplicación simple de checklist de actividades diarias.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.0.15
+  intl: ^0.17.0
+  permission_handler: ^11.0.0
+  path_provider: ^2.0.14
+  excel: ^2.0.4
+  pdf: ^3.10.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
